@@ -71,7 +71,7 @@ export default function ProductList({ token }) {
             </p>
             <p
               onClick={() => removeProduct(item._id)}
-              className="text-right md:text-center cursor-pointer text-lg text-red-600">
+              className="text-right md:text-center cursor-pointer text-sm text-red-600">
               Remove
             </p>
           </div>
